@@ -6,7 +6,7 @@
 
 This final project is inspired by and extends the analysis presented in
 <a href="https://core-prod.cambridgecore.org/core/journals/journal-of-law-and-courts/article/let-me-just-interrupt-you-estimating-gender-effects-in-supreme-court-oral-arguments/4870F0FD3BEF0E00AF46F8D64EDA2289"> “Let Me Just Interrupt You”: Estimating Gender Effects in Supreme Court Oral Arguments </a>, forthcoming in the Journal of Law and Courts by Erica Cai, Ankita Gupta, Katherine A. Keith, Brendan O’Connor, and Douglas Rice.
-While the original study focuses on identifying gender-based disparities in interruption patterns during U.S. Supreme Court oral arguments, this project extends their work by investigating whether such interruptions also shift the semantic meaning of advocates’ arguments — exploring potential downstream impacts on the framing and substance of legal discourse.
+While the original study focuses on identifying gender-based disparities in interruption patterns during U.S. Supreme Court oral arguments, this project extends their work by investigating whether such interruptions also shift the semantic meaning of advocates’ arguments — exploring potential downstream impacts on the framing and substance of legal discourse. The working paper has been published on <a href="https://arxiv.org/abs/2512.05832">arXiv</a>.
 
 If you use or cite the original dataset or replication code, please include the following citation as requested by the authors:
 
@@ -92,8 +92,9 @@ The `raw_data/` provided by the original authors contains source datasets used i
   - <code>name2gender.json</code> — Name-to-gender dictionary from Rafo et al.
 
 - <code>Script</code>: Contains R and Python analysis scripts:
-  - <code>PPOL6801_Final_Project.Rmd</code> — RMarkdown file used to generate figures, tables, and final regression outputs.
-  - <code>PPOL6801_Final_Project.html</code> — HTML output for better reading.
+  - <code>Analysis_Script.Rmd</code> — RMarkdown file used to generate figures, tables, and final regression outputs.
+  - <code>Rendered_Script.html</code> — HTML output for better reading.
+  - <code>Rendered_Script.pdf </code> — PDF output for better reading.
   - <code>create_analyze_chunks.py</code> — Segments transcripts into speech chunks between justices and advocates.
   - <code>advocate_gender.py</code> — Assigns gender labels to advocates using external name dictionaries.
   - <code>filter.py</code> — Applies filtering logic to remove cases with missing metadata or emotionally charged topics.
@@ -104,9 +105,9 @@ The `raw_data/` provided by the original authors contains source datasets used i
 - <code>Plot</code>: Stores output visualizations used in the paper, such as:
   - <code>Cosine_Similarity.png</code>, <code>Neg_Ratio.png</code>, <code>Top_Words.png</code>, etc.
 
-- <code>Doc</code>: Contains project deliverables:
-  - <code>PPOL6801_Final_Project_Report</code> — Final written report.
-  - <code>PPOL6801_Final_Project_Slides.pptx</code> — Slide deck for presentation.
+- Contains project deliverables:
+  - <code>Working_Paper.pdf</code> — Final written report, which has been published.
+  - <code>Presentation_Slides.pptx</code> — Slide deck for presentation.
 
 
 <p>All analyses were conducted in R and Python. Data cleaning, modeling, and figure generation can be reproduced from the files above.</p>
