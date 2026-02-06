@@ -133,7 +133,7 @@ the course PPOL 6801 - Text as Data (Spring 2025) at
 <a href="https://mccourt.georgetown.edu/">Georgetown University, McCourt School of Public Policy</a>.
 </p>
 
-We gratefully acknowledge the original authors for publicly sharing their data and code, which made this replication possible. We also appreciate Professor Nejla Asimovic for her invaluable guidance and support throughout the project.
+I gratefully acknowledge the original authors for publicly sharing their data and code, which made this replication possible. I also appreciate Professor Nejla Asimovic<a href="mailto:na1040@georgetown.edu">na1040@georgetown.edu</a></li> for her invaluable guidance and support throughout the project.
 
 <ul>
   <li><strong>Tian Tong</strong> - <a href="mailto:yt583@georgetown.edu">yt583@georgetown.edu</a></li>
