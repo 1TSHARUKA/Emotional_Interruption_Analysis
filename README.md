@@ -1,5 +1,5 @@
 <h1 align="center"> "Let Me Just Interrupt You"</h1>
-<h3 align="center"> Estimating Effects of Interuptions in Supreme Court Oral Arguments </h3>  
+<h3 align="center"> Gender, Interruptions, and Emotional Tone in U.S. Supreme Court Oral Arguments </h3>  
 <br>
 
 <!-- Project Reference -->
